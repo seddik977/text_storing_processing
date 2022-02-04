@@ -28,6 +28,9 @@ wordcount and finaly fuse.js
 [https://text-processing-storing.herokuapp.com](https://text-processing-storing.herokuapp.com)
 
 ## Usage
-Post :
-you must give three properties arabe,english and french.
+Post : you must give three properties arabe,english and french.
+To submit a text :
+GET: text/Submit/:textId
+Text to be approuved or rejected  :
+GET: text/approval/:textId
 The other routes are identical to the statement.
